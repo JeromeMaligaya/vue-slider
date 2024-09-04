@@ -27,6 +27,11 @@
                 
                 <div class="row justify-content-center flex-column align-items-center">
                     <div class="col-8 my-4 text-center">
+                        <ul class="d-flex justify-content-center gap-1">
+                            <li class="d-flex justify-content-center align-items-center" v-for="image in imgList">
+                               <img :src="image.image" alt=""> 
+                            </li>
+                        </ul>
                         <!-- buttons -->
                         <div class="btn-group col-4 mb-3" role="group" aria-label="Basic example">
                             <button type="button" class="btn btn-warning" @click="prevImage()"><i class="fa-solid fa-circle-left"></i></button>
