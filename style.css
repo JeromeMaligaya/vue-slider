@@ -10,6 +10,10 @@ body{
     font-family: sans-serif;
 }
 
+ul{
+    list-style-type: none;
+}
+
 img{
     display: block;
     max-width: 100%;
@@ -21,21 +25,22 @@ img{
     
     
 }
-
-#app p{
-    
-    color: white;
+#app p, #app h4{
     position: absolute;
     right: 3%;
-    bottom: 0%;
-    
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
 }
 
-h4{
-    color: white;
-    position: absolute;
-    right: 3%;
-    bottom: 70px;
+#app p{
+    top: 50px;
+}
+
+#app h4{
+    top: 5px;
+    font-weight: bolder;
 }
 
 .fa-solid{

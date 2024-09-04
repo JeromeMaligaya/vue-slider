@@ -21,8 +21,18 @@
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
         <div id="app">
             <div class="container">
+
+                
+
+                
                 <div class="row justify-content-center flex-column align-items-center">
-                    <div class="col-8 my-4">
+                    <div class="col-8 my-4 text-center">
+                        <!-- buttons -->
+                        <div class="btn-group col-4 mb-3" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-warning" @click="prevImage()"><i class="fa-solid fa-circle-left"></i></button>
+                            <button type="button" class="btn btn-success" @click="nextImage()"><i class="fa-solid fa-circle-right"></i></button>
+                        </div>
+                        <!-- card img -->
                         <div class="img-box text-center">
                             <img :src="imgList[currentIndex].image" alt="">
                             <h4>
@@ -34,11 +44,7 @@
                         </div>
                     </div>
                  
-                    <!-- buttons -->
-                    <div class="btn-group col-4" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-warning"><i class="fa-solid fa-circle-left"></i></button>
-                        <button type="button" class="btn btn-success"><i class="fa-solid fa-circle-right"></i></button>
-                    </div>
+                  
                 </div>
             </div>
         </div>
