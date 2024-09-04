@@ -22,14 +22,14 @@
         <div id="app">
             <div class="container">
                 <div class="row justify-content-center flex-column align-items-center">
-                    <div class="col-6 my-4">
+                    <div class="col-8 my-4">
                         <div class="img-box text-center">
-                            <img src="img/01.webp" alt="">
+                            <img :src="imgList[currentIndex].image" alt="">
                             <h4>
-                                Marvel\'s Spiderman Miles Morale
+                                {{ imgList[currentIndex].title }}
                             </h4>
                             <p class="text-end">
-                                Experience the rise of Miles Morales as the new hero masters incredible, explosive new powers to become his own Spider-Man.
+                                {{ imgList[currentIndex].text }}                            
                             </p>
                         </div>
                     </div>
