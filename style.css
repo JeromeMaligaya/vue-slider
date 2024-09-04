@@ -31,9 +31,8 @@ img{
 
 .img-box{
     position: relative;
-    
-    
 }
+
 #app p, #app h4{
     position: absolute;
     right: 3%;

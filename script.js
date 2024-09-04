@@ -47,5 +47,9 @@ createApp({
       this.currentIndex++;
       console.log(this.currentIndex)
     },
+    selectThumb(index){
+      this.currentIndex = index;
+      console.log(this.currentIndex)
+    }
   },
 }).mount('#app')
