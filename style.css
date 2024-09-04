@@ -11,18 +11,35 @@ body{
 }
 
 img{
-    width: 100%;
     display: block;
+    max-width: 100%;
+    object-fit: cover;
 }
 
-a{
-    display: block;
-    text-decoration: none;
+.img-box{
+    position: relative;
+    
+    
 }
 
-ul{
-    list-style-type: none;
+#app p{
+    
+    color: white;
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+    
 }
 
+h4{
+    color: white;
+    position: absolute;
+    right: 5%;
+    bottom: 70px;
+}
+
+.fa-solid{
+    font-size: 40px;
+}
 
 /*utilities*/

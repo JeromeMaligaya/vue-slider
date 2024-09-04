@@ -19,8 +19,28 @@
     <body>
  	    <!-- vue-js -->
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-        <div id="app" class="text-center mt-3">
-            <h1>{{ message }}</h1>
+        <div id="app">
+            <div class="container">
+                <div class="row justify-content-center flex-column align-items-center">
+                    <div class="col-6 my-4">
+                        <div class="img-box text-center">
+                            <img src="img/01.webp" alt="">
+                            <h4>
+                                Marvel\'s Spiderman Miles Morale
+                            </h4>
+                            <p class="text-end">
+                                Experience the rise of Miles Morales as the new hero masters incredible, explosive new powers to become his own Spider-Man.
+                            </p>
+                        </div>
+                    </div>
+                 
+                    <!-- buttons -->
+                    <div class="btn-group col-4" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-warning"><i class="fa-solid fa-circle-left"></i></button>
+                        <button type="button" class="btn btn-success"><i class="fa-solid fa-circle-right"></i></button>
+                    </div>
+                </div>
+            </div>
         </div>
         
         <!-- js bootstrap -->
